@@ -1,0 +1,33 @@
+ Write a Java program to print the area and perimeter of a circle.
+
+Test Data: Radius = 7.5
+
+Expected Output
+
+Perimeter is = 47.12388980384689
+
+Area is = 176.71458676442586
+
+ANSWER
+
+import java.util.*;
+import java.lang.*;
+import java.lang.Math.*;
+import java.io.*;
+
+class hello
+{
+     public static void main (String[] args) 
+    {
+     double r,area,peri ;
+       Scanner hi=new Scanner (System.in);
+       System.out.println("ENTER THE RADIUS OF THE CIRCLE");
+       r=hi.nextFloat();
+       peri=2* Math.PI *r;
+       area=Math.PI*r*r;
+       System.out.println("THE PERIMETER OF THE CIRCLE IS");
+        System.out.println(peri);
+       System.out.println("THE AREA OF THE CIRCLE IS");
+       System.out.println(area);
+    }
+}
