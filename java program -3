@@ -1,0 +1,28 @@
+Q2 - Write a Java program to divide two numbers and print on the screen
+
+Test Data : 50/3
+
+ Expected Output : 16
+
+ANSWER
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class hello
+{
+     public static void main (String[] args) 
+    {
+       int a,b,d;
+       Scanner hi=new Scanner (System.in);
+       System.out.println("ENTER THE FIRST NUMBER FOR DIVISION");
+       a=hi.nextInt();
+       System.out.println("ENTER THE SECOND NUMBER FOR DIVISION");
+       b=hi.nextInt();
+       d=a/b;
+       System.out.println("THE OUTPUT OF THE DIVISION OPERATION IS");
+       System.out.println(d);
+    }
+}
